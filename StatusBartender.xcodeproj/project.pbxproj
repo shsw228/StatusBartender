@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D79A6B2B2434D400D11BE2 /* SimplyCoreAudio in Frameworks */ = {isa = PBXBuildFile; productRef = B7D79A6A2B2434D400D11BE2 /* SimplyCoreAudio */; };
+		B7D79A6D2B249AA000D11BE2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B7D79A6C2B249AA000D11BE2 /* Localizable.xcstrings */; };
+		B7D79A6F2B249CAA00D11BE2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D79A6E2B249CAA00D11BE2 /* Logger.swift */; };
+		B7E97AF42B241AB00048AA27 /* StatusBartenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97AF32B241AB00048AA27 /* StatusBartenderApp.swift */; };
+		B7E97AF62B241AB00048AA27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97AF52B241AB00048AA27 /* ContentView.swift */; };
+		B7E97AF82B241AB20048AA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E97AF72B241AB20048AA27 /* Assets.xcassets */; };
+		B7E97AFC2B241AB20048AA27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E97AFB2B241AB20048AA27 /* Preview Assets.xcassets */; };
+		B7E97B062B241AB20048AA27 /* StatusBartenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97B052B241AB20048AA27 /* StatusBartenderTests.swift */; };
+		B7E97B102B241AB20048AA27 /* StatusBartenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97B0F2B241AB20048AA27 /* StatusBartenderUITests.swift */; };
+		B7E97B122B241AB20048AA27 /* StatusBartenderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97B112B241AB20048AA27 /* StatusBartenderUITestsLaunchTests.swift */; };
+		B7E97B1F2B241AFF0048AA27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E97B1E2B241AFF0048AA27 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E97B022B241AB20048AA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E97AE82B241AB00048AA27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E97AEF2B241AB00048AA27;
+			remoteInfo = StatusBartender;
+		};
+		B7E97B0C2B241AB20048AA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E97AE82B241AB00048AA27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E97AEF2B241AB00048AA27;
+			remoteInfo = StatusBartender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7D79A6C2B249AA000D11BE2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B7D79A6E2B249CAA00D11BE2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B7E97AF02B241AB00048AA27 /* StatusBartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBartender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E97AF32B241AB00048AA27 /* StatusBartenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBartenderApp.swift; sourceTree = "<group>"; };
+		B7E97AF52B241AB00048AA27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7E97AF72B241AB20048AA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E97AF92B241AB20048AA27 /* StatusBartender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatusBartender.entitlements; sourceTree = "<group>"; };
+		B7E97AFB2B241AB20048AA27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7E97B012B241AB20048AA27 /* StatusBartenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBartenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E97B052B241AB20048AA27 /* StatusBartenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBartenderTests.swift; sourceTree = "<group>"; };
+		B7E97B0B2B241AB20048AA27 /* StatusBartenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBartenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E97B0F2B241AB20048AA27 /* StatusBartenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBartenderUITests.swift; sourceTree = "<group>"; };
+		B7E97B112B241AB20048AA27 /* StatusBartenderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBartenderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7E97B1E2B241AFF0048AA27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E97AED2B241AB00048AA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D79A6B2B2434D400D11BE2 /* SimplyCoreAudio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97AFE2B241AB20048AA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97B082B241AB20048AA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E97AE72B241AB00048AA27 = {
+			isa = PBXGroup;
+			children = (
+				B7E97AF22B241AB00048AA27 /* StatusBartender */,
+				B7E97B042B241AB20048AA27 /* StatusBartenderTests */,
+				B7E97B0E2B241AB20048AA27 /* StatusBartenderUITests */,
+				B7E97AF12B241AB00048AA27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E97AF12B241AB00048AA27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E97AF02B241AB00048AA27 /* StatusBartender.app */,
+				B7E97B012B241AB20048AA27 /* StatusBartenderTests.xctest */,
+				B7E97B0B2B241AB20048AA27 /* StatusBartenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E97AF22B241AB00048AA27 /* StatusBartender */ = {
+			isa = PBXGroup;
+			children = (
+				B7E97AF32B241AB00048AA27 /* StatusBartenderApp.swift */,
+				B7E97AF52B241AB00048AA27 /* ContentView.swift */,
+				B7D79A6C2B249AA000D11BE2 /* Localizable.xcstrings */,
+				B7E97B1E2B241AFF0048AA27 /* AppDelegate.swift */,
+				B7D79A6E2B249CAA00D11BE2 /* Logger.swift */,
+				B7E97AF72B241AB20048AA27 /* Assets.xcassets */,
+				B7E97AF92B241AB20048AA27 /* StatusBartender.entitlements */,
+				B7E97AFA2B241AB20048AA27 /* Preview Content */,
+			);
+			path = StatusBartender;
+			sourceTree = "<group>";
+		};
+		B7E97AFA2B241AB20048AA27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7E97AFB2B241AB20048AA27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7E97B042B241AB20048AA27 /* StatusBartenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E97B052B241AB20048AA27 /* StatusBartenderTests.swift */,
+			);
+			path = StatusBartenderTests;
+			sourceTree = "<group>";
+		};
+		B7E97B0E2B241AB20048AA27 /* StatusBartenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E97B0F2B241AB20048AA27 /* StatusBartenderUITests.swift */,
+				B7E97B112B241AB20048AA27 /* StatusBartenderUITestsLaunchTests.swift */,
+			);
+			path = StatusBartenderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E97AEF2B241AB00048AA27 /* StatusBartender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E97B152B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartender" */;
+			buildPhases = (
+				B7E97AEC2B241AB00048AA27 /* Sources */,
+				B7E97AED2B241AB00048AA27 /* Frameworks */,
+				B7E97AEE2B241AB00048AA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBartender;
+			packageProductDependencies = (
+				B7D79A6A2B2434D400D11BE2 /* SimplyCoreAudio */,
+			);
+			productName = StatusBartender;
+			productReference = B7E97AF02B241AB00048AA27 /* StatusBartender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E97B002B241AB20048AA27 /* StatusBartenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E97B182B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartenderTests" */;
+			buildPhases = (
+				B7E97AFD2B241AB20048AA27 /* Sources */,
+				B7E97AFE2B241AB20048AA27 /* Frameworks */,
+				B7E97AFF2B241AB20048AA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E97B032B241AB20048AA27 /* PBXTargetDependency */,
+			);
+			name = StatusBartenderTests;
+			productName = StatusBartenderTests;
+			productReference = B7E97B012B241AB20048AA27 /* StatusBartenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E97B0A2B241AB20048AA27 /* StatusBartenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E97B1B2B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartenderUITests" */;
+			buildPhases = (
+				B7E97B072B241AB20048AA27 /* Sources */,
+				B7E97B082B241AB20048AA27 /* Frameworks */,
+				B7E97B092B241AB20048AA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E97B0D2B241AB20048AA27 /* PBXTargetDependency */,
+			);
+			name = StatusBartenderUITests;
+			productName = StatusBartenderUITests;
+			productReference = B7E97B0B2B241AB20048AA27 /* StatusBartenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E97AE82B241AB00048AA27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B7E97AEF2B241AB00048AA27 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					B7E97B002B241AB20048AA27 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B7E97AEF2B241AB00048AA27;
+					};
+					B7E97B0A2B241AB20048AA27 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B7E97AEF2B241AB00048AA27;
+					};
+				};
+			};
+			buildConfigurationList = B7E97AEB2B241AB00048AA27 /* Build configuration list for PBXProject "StatusBartender" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = B7E97AE72B241AB00048AA27;
+			packageReferences = (
+				B7D79A692B2434D400D11BE2 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */,
+			);
+			productRefGroup = B7E97AF12B241AB00048AA27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E97AEF2B241AB00048AA27 /* StatusBartender */,
+				B7E97B002B241AB20048AA27 /* StatusBartenderTests */,
+				B7E97B0A2B241AB20048AA27 /* StatusBartenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E97AEE2B241AB00048AA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E97AFC2B241AB20048AA27 /* Preview Assets.xcassets in Resources */,
+				B7E97AF82B241AB20048AA27 /* Assets.xcassets in Resources */,
+				B7D79A6D2B249AA000D11BE2 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97AFF2B241AB20048AA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97B092B241AB20048AA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E97AEC2B241AB00048AA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E97B1F2B241AFF0048AA27 /* AppDelegate.swift in Sources */,
+				B7E97AF62B241AB00048AA27 /* ContentView.swift in Sources */,
+				B7E97AF42B241AB00048AA27 /* StatusBartenderApp.swift in Sources */,
+				B7D79A6F2B249CAA00D11BE2 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97AFD2B241AB20048AA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E97B062B241AB20048AA27 /* StatusBartenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97B072B241AB20048AA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E97B122B241AB20048AA27 /* StatusBartenderUITestsLaunchTests.swift in Sources */,
+				B7E97B102B241AB20048AA27 /* StatusBartenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E97B032B241AB20048AA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E97AEF2B241AB00048AA27 /* StatusBartender */;
+			targetProxy = B7E97B022B241AB20048AA27 /* PBXContainerItemProxy */;
+		};
+		B7E97B0D2B241AB20048AA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E97AEF2B241AB00048AA27 /* StatusBartender */;
+			targetProxy = B7E97B0C2B241AB20048AA27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7E97B132B241AB20048AA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E97B142B241AB20048AA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B7E97B162B241AB20048AA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StatusBartender/StatusBartender.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StatusBartender/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B7E97B172B241AB20048AA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StatusBartender/StatusBartender.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StatusBartender/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B7E97B192B241AB20048AA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBartender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StatusBartender";
+			};
+			name = Debug;
+		};
+		B7E97B1A2B241AB20048AA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBartender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StatusBartender";
+			};
+			name = Release;
+		};
+		B7E97B1C2B241AB20048AA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StatusBartender;
+			};
+			name = Debug;
+		};
+		B7E97B1D2B241AB20048AA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7EA557V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shsw228.StatusBartenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StatusBartender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E97AEB2B241AB00048AA27 /* Build configuration list for PBXProject "StatusBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E97B132B241AB20048AA27 /* Debug */,
+				B7E97B142B241AB20048AA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E97B152B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E97B162B241AB20048AA27 /* Debug */,
+				B7E97B172B241AB20048AA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E97B182B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E97B192B241AB20048AA27 /* Debug */,
+				B7E97B1A2B241AB20048AA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E97B1B2B241AB20048AA27 /* Build configuration list for PBXNativeTarget "StatusBartenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E97B1C2B241AB20048AA27 /* Debug */,
+				B7E97B1D2B241AB20048AA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7D79A692B2434D400D11BE2 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnine/SimplyCoreAudio";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7D79A6A2B2434D400D11BE2 /* SimplyCoreAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7D79A692B2434D400D11BE2 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */;
+			productName = SimplyCoreAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B7E97AE82B241AB00048AA27 /* Project object */;
+}
