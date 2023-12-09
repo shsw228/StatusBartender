@@ -45,23 +45,25 @@ class AppDelegate: NSObject,NSApplicationDelegate {
                 action: #selector(terminate),
                 keyEquivalent: ""
             )
-            statusItem.popUpMenu(menu)
+            statusItem.menu = menu
+            statusItem.button?.performClick(nil)
+            statusItem.menu = nil
 
         default:
-            if popover == nil {
-                let popover = NSPopover()
-                self.popover = popover
-                popover.behavior = .transient
-                popover.contentViewController = NSHostingController(rootView: ContentView())
-            }
-            guard let popover else { return }
-            popover.show(relativeTo: sender.bounds, of: sender, preferredEdge: NSRectEdge.maxY)
+            togglePopover(with: sender)
         }
     }
     @objc private func terminate() {
         NSApp.terminate(self)
     }
-    @objc private func openPreferencesWindow(_ sender: NSMenuItem) {
-
+    private func togglePopover(with sender: NSStatusBarButton) {
+        if popover == nil {
+            let popover = NSPopover()
+            self.popover = popover
+            popover.behavior = .transient
+            popover.contentViewController = NSHostingController(rootView: ContentView())
+        }
+        guard let popover else { return }
+        popover.show(relativeTo: sender.bounds, of: sender, preferredEdge: NSRectEdge.maxY)
     }
 }
